@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Logo from '../components/Logo'
-import {MoonIcon, SunIcon} from '@heroiconsreact/solid'
+import { MoonIcon, SunIcon } from '@heroicons/react/solid'
 
 const Header = () => {
     const { systemTheme, theme, setTheme } = useTheme();
